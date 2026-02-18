@@ -1,1 +1,8 @@
-# This file explains in a minor amount of detail the standard operation procedures and the exceptions
+This file explains in a minor amount of detail the standard operation procedures and the exceptions
+
+1. Standard Operation Procedure
+2. Sensor Failure Procedure
+  a. Force the stop (end ride) protocol
+  b. Ride Operator checks sensor integrity
+  c. ride starts up without passengers for 1 loop
+3. Motor failure
