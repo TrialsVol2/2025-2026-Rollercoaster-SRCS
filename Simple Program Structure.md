@@ -5,13 +5,13 @@ This file explains in a _minor_ amount of detail the standard operation procedur
 **Have a system check protocol before starting ride functionality**<br>
 
 _HMI Objectives_<br>
-1. Buttons that control motors movement individually. Forwards and Backwards (possibly speed as a slide bar,like volume) as well as audio cues eg. ping, bell, alarm<br>
-2. Differing windows as panes or titles. These windows cannot be closable**<br>
+a. Buttons that control motors movement individually. Forwards and Backwards (possibly speed as a slide bar,like volume) as well as audio cues eg. ping, bell, alarm<br>
+b. Differing windows as panes or titles. These windows cannot be closable**<br>
 
 _Arduino Objectives_<br>
-1. Save all of code up to this point
-2. create a module (block of code) that when pushing arduino button, switches direction of motor
-3. create a **DIFFERENT** module that when **HOLDING** arduino button, allows movement of motor in singular direction (this code should not allow opposite direction rotation)
+a. Save all of code up to this point<br>
+b. create a module (block of code) that when pushing arduino button, switches direction of motor<br>
+c. create a **DIFFERENT** module that when **HOLDING** arduino button, allows movement of motor in singular direction (this code should not allow opposite direction rotation)<br>
 
 1. Standard Operation Procedure
 2. **Automated Forced Stop Procedure**<br>
