@@ -4,14 +4,15 @@ This file explains in a _minor_ amount of detail the standard operation procedur
 
 **Have a system check protocol before starting ride functionality**
 1. Standard Operation Procedure
-2. **Automated Forced Stop Procedure**\\n  a. Cease all lift hill motion
-	b. Bring riders into station without moving them forwards to the lift hill
-  c. open exit gates but not the enterance gates.
+2. **Automated Forced Stop Procedure**<br>
+	a. Cease all lift hill motion<br>
+	b. Bring riders into station without moving them forwards to the lift hill<br>
+	c. open exit gates but not the enterance gates.
 5.
-6. Sensor Failure Procedure
-  a. **Automated Forced Stop Procedure**
-  b. Ride Operator checks sensor integrity
-  c. ride starts up without passengers for 1 lap
-  d. if sensors are working, then load riders and proceed as normal. if not, return to 4b.
+6. Sensor Failure Procedure<br>
+  a. **Automated Forced Stop Procedure**<br>
+  b. Ride Operator checks sensor integrity<br>
+  c. ride starts up without passengers for 1 lap<br>
+  d. if sensors are working, then load riders and proceed as normal. if not, return to 4b.<br>
 7. 
 8. Motor failure
