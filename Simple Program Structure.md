@@ -2,7 +2,9 @@ This file explains in a _minor_ amount of detail the standard operation procedur
 
 **ASTM	11.2.8 When a different protocol occurs such as the automated forced stop, a warning will flash on the human-machine interface followed by a noise to grab the ride operator’s attention.**
 
-**Have a system check protocol before starting ride functionality**
+**Have a system check protocol before starting ride functionality**<br>
+**Buttons that control motors movement individually. Forwards and Backwards (possibly speed)**<br>
+
 1. Standard Operation Procedure
 2. **Automated Forced Stop Procedure**<br>
 	a. Cease all lift hill motion<br>
