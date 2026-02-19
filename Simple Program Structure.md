@@ -9,9 +9,9 @@ _HMI Objectives_<br>
 2. Differing windows as panes or titles. These windows cannot be closable**<br>
 
 _Arduino Objectives_<br>
-1. Save all of code up to this point<br>
-2. create a module (block of code) that when pushing arduino button, switches direction of motor<br>
-3. create a **DIFFERENT** module that when **HOLDING** arduino button, allows movement of motor in singular direction (this code should not allow opposite direction rotation)<br>
+1. Save all of code up to this point
+2. create a module (block of code) that when pushing arduino button, switches direction of motor
+3. create a **DIFFERENT** module that when **HOLDING** arduino button, allows movement of motor in singular direction (this code should not allow opposite direction rotation)
 
 1. Standard Operation Procedure
 2. **Automated Forced Stop Procedure**<br>
