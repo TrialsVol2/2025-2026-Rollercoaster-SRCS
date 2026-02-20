@@ -1,3 +1,4 @@
+// Revisit to test slider capability for different speeds using only 1 pin instead of 5 total pins for 5 preset speeds
 #include <Servo.h>
 
 Servo continuousServo;   
