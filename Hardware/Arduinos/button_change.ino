@@ -8,12 +8,15 @@ const int contServoPin = 9;
 const int sweepServoPin1 = 10;
 const int sweepServoPin2 = 11;
 const int buttonPin = 2;
-bool servoAttached = true;
+
 int contSpeed = 30;
 
 // Movement timing
-unsigned long moveInterval = 2;      
-unsigned long pauseTime = 500;       
+unsigned long moveInterval = 2;      // ~0.5 sec for 90°
+unsigned long pauseTime = 500;       // pause at ends (ms)
+
+bool directionForward = true;
+bool lastButtonState = HIGH;
 
 // Pin 10 (0 ↔ 90)
 int sweepPos1 = 0;
@@ -36,27 +39,38 @@ void setup() {
 
   pinMode(buttonPin, INPUT_PULLUP);
 
-  continuousServo.write(90);  // Start stopped
+  continuousServo.write(90);
 }
 
 void loop() {
+  checkButton();
   controlContinuousServo();
   sweepServoOne();
   sweepServoTwo();
 }
 
 // ----------------------------
-// Continuous Servo (Spin Only While Held)
+// Continuous Servo (Pin 9)
 // ----------------------------
 void controlContinuousServo() {
-  bool buttonState = digitalRead(buttonPin);
-
-  if (buttonState == LOW) {  // Button pressed
-    continuousServo.attach(contServoPin);  
-    continuousServo.write(90 + contSpeed);  // Spin forward
+  if (directionForward) {
+    continuousServo.write(90 + contSpeed);
   } else {
-    continuousServo.detach();  // REMOVE SIGNAL → stops servo drive
+    continuousServo.write(90 - contSpeed);
   }
+}
+
+// ----------------------------
+// Button Toggle (Pin 9 Only)
+// ----------------------------
+void checkButton() {
+  bool currentButtonState = digitalRead(buttonPin);
+
+  if (lastButtonState == HIGH && currentButtonState == LOW) {
+    directionForward = !directionForward;
+  }
+
+  lastButtonState = currentButtonState;
 }
 
 // ----------------------------
