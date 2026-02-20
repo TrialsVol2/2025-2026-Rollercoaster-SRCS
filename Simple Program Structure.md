@@ -7,6 +7,7 @@ This file explains in a _minor_ amount of detail the standard operation procedur
 _HMI Objectives_<br>
 a. Buttons that control motors movement individually. Forwards and Backwards (possibly speed as a slide bar,like volume) as well as audio cues eg. ping, bell, alarm<br>
 b. Differing windows as panes or titles. These windows cannot be closable**<br>
+c. Make warning pop up on screen when button is pressed, if felt like, can have alarm/warning sound integrated into functionality<br>
 
 _Arduino Objectives_<br>
 a. Save all of code up to this point<br>
