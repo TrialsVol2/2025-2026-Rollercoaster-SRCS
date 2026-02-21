@@ -10,9 +10,11 @@ b. Differing windows as panes or titles. These windows cannot be closable**<br>
 c. Make warning pop up on screen when button is pressed, if felt like, can have alarm/warning sound integrated into functionality<br>
 
 _Arduino Objectives_<br>
-a. Save all of code up to this point<br>
-b. create a module (block of code) that when pushing arduino button, switches direction of motor<br>
-c. create a **DIFFERENT** module that when **HOLDING** arduino button, allows movement of motor in singular direction (this code should not allow opposite direction rotation)<br>
+~~a. Save all of code up to this point<br>~~
+~~b. create a module (block of code) that when pushing arduino button, switches direction of motor<br>~~
+~~c. create a **DIFFERENT** module that when **HOLDING** arduino button, allows movement of motor in singular direction (this code should not allow opposite direction rotation)<br>~~
+  d. investigate step C but instead of using multiple pins for varying speeds, use the button to toggle different variable presets within the code <br>
+  e. 
 
 1. Standard Operation Procedure
 2. **Automated Forced Stop Procedure**<br>
