@@ -18,13 +18,14 @@ _Arduino Objectives_<br>
   d. investigate step C but instead of using multiple pins for varying speeds, use the button to toggle different variable presets within the code <br>
   e. 
 
+**Have visual indication as to which procedure is running**<br>
 1. Standard Operation Procedure
 2. **Automated Forced Stop Procedure**<br>
 	a. Cease all lift hill motion<br>
 	b. Bring riders into station without moving them forwards to the lift hill<br>
 	c. Open exit gates but not the enterance gates.
 	d. causes an infinite while loop waiting until _standard operating procedure_ begins
-5. **Motor Stalling Protocol**
+5. **Motor Stalling Procedure**
 6. Sensor Failure Procedure<br>
   a. **Automated Forced Stop Procedure**<br>
   b. Ride Operator checks sensor integrity<br>
