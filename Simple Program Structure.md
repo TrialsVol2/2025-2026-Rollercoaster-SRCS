@@ -2,6 +2,7 @@ This file explains in a _minor_ amount of detail the standard operation procedur
 
 **ASTM	11.2.8 When a different protocol occurs such as the automated forced stop, a warning will flash on the human-machine interface followed by a noise to grab the ride operator’s attention.**
 
+**Have an authentication system before HMI comes online, similar to a pin or passkey**<br>
 **Have a system check protocol before starting ride functionality**<br>
 **Have a window to switch operating modes as well as a universal or dedicated start button**<br>
 **The start button in question MUST be distinct from the operations**<br>
